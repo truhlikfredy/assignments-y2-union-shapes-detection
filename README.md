@@ -55,4 +55,4 @@ when fast start is disabled it will show dialogs prompting for these options.
 The included 3rd party webcam library may output lot of warnings, but still can work nicely.
 
 In file screenShots/00.png contains basic shapes which can be printed and used on the camera.
-(https://raw.githubusercontent.com/truhlikfredy/assignments-y2-union-shapes-detection/master/screenShoots/00.png)
+![for printing](https://raw.githubusercontent.com/truhlikfredy/assignments-y2-union-shapes-detection/master/screenShoots/00.png)
