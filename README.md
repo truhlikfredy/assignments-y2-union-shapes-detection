@@ -10,6 +10,9 @@ Webcam part of this project uses https://github.com/sarxos/webcam-capture code t
 ![Shapes Detection](https://raw.githubusercontent.com/truhlikfredy/assignments-y2-union-shapes-detection/master/screenShoots/02.png)
 
 # Downloads
+[union.zip](https://github.com/truhlikfredy/assignments-y2-union-shapes-detection/archive/v1.0.zip)
+
+[union.tgz](https://github.com/truhlikfredy/assignments-y2-union-shapes-detection/archive/v1.0.tar.gz)
 
 # Features
 * WebCam and MachineVission classes containing main. Both behave differently.
