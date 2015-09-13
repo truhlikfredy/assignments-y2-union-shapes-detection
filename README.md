@@ -5,9 +5,9 @@ Author: Anton Krug. License: GPL
 
 Webcam part of this project uses https://github.com/sarxos/webcam-capture code to access the camera.
 
-(https://raw.githubusercontent.com/truhlikfredy/assignments-y2-union-shapes-detection/master/screenShoots/01.png)
+![Shapes Detection](https://raw.githubusercontent.com/truhlikfredy/assignments-y2-union-shapes-detection/master/screenShoots/01.png)
 
-(https://raw.githubusercontent.com/truhlikfredy/assignments-y2-union-shapes-detection/master/screenShoots/02.png)
+![Shapes Detection](https://raw.githubusercontent.com/truhlikfredy/assignments-y2-union-shapes-detection/master/screenShoots/02.png)
 
 # Downloads
 
@@ -31,16 +31,16 @@ Webcam part of this project uses https://github.com/sarxos/webcam-capture code t
 # ScreenShots
 
 ##Smartphone screen turned to webcam
-(https://raw.githubusercontent.com/truhlikfredy/assignments-y2-union-shapes-detection/master/screenShoots/03.png)
+![Phone](https://raw.githubusercontent.com/truhlikfredy/assignments-y2-union-shapes-detection/master/screenShoots/03.png)
 
 ##Hand
-(https://github.com/truhlikfredy/assignments-y2-union-shapes-detection/blob/master/screenShoots/04.png)
+![Hand](https://github.com/truhlikfredy/assignments-y2-union-shapes-detection/blob/master/screenShoots/04.png)
 
 ##Sample Images
 
-(https://github.com/truhlikfredy/assignments-y2-union-shapes-detection/blob/master/screenShoots/05.png)
+![povray](https://github.com/truhlikfredy/assignments-y2-union-shapes-detection/blob/master/screenShoots/05.png)
 
-(https://github.com/truhlikfredy/assignments-y2-union-shapes-detection/blob/master/screenShoots/06.png)
+![sample](https://github.com/truhlikfredy/assignments-y2-union-shapes-detection/blob/master/screenShoots/06.png)
 
 # Notes
 
