@@ -37,13 +37,13 @@ Webcam part of this project uses https://github.com/sarxos/webcam-capture code t
 ![Phone](https://raw.githubusercontent.com/truhlikfredy/assignments-y2-union-shapes-detection/master/screenShoots/03.png)
 
 ##Hand
-![Hand](https://github.com/truhlikfredy/assignments-y2-union-shapes-detection/blob/master/screenShoots/04.png)
+![Hand](https://raw.githubusercontent.com/truhlikfredy/assignments-y2-union-shapes-detection/master/screenShoots/04.png)
 
 ##Sample Images
 
-![povray](https://github.com/truhlikfredy/assignments-y2-union-shapes-detection/blob/master/screenShoots/05.png)
+![povray](https://raw.githubusercontent.com/truhlikfredy/assignments-y2-union-shapes-detection/master/screenShoots/05.png)
 
-![sample](https://github.com/truhlikfredy/assignments-y2-union-shapes-detection/blob/master/screenShoots/06.png)
+![sample](https://raw.githubusercontent.com/truhlikfredy/assignments-y2-union-shapes-detection/master/screenShoots/06.png)
 
 # Notes
 
