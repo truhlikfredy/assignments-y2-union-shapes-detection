@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=640">
+
+    <link rel="stylesheet" href="stylesheets/core.css" media="screen">
+    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+
+    <script type="text/javascript" src="javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
+    <title>Union shapes detection by truhlikfredy</title>
+  </head>
+
+  <body>
+    <a id="forkme_banner" href="https://github.com/truhlikfredy/assignments-y2-union-shapes-detection">View on GitHub</a>
+    <div class="shell">
+
+      <header>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>Union shapes detection</h1>
+            <h2>Second year college project to process images and webcam stream.</h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+      </header>
+
+      <section id="downloads">
+        <span class="inner">
+          <a href="https://github.com/truhlikfredy/assignments-y2-union-shapes-detection/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/truhlikfredy/assignments-y2-union-shapes-detection/tarball/master" class="tgz"><em>download</em> .TGZ</a>
+        </span>
+      </section>
+
+
+      <span class="banner-fix"></span>
+
+
+      <section id="main_content">
+        <h1>
+<a id="union-shapes-detection" class="anchor" href="#union-shapes-detection" aria-hidden="true"><span class="octicon octicon-link"></span></a>Union shapes detection</h1>
+
+<p>Second year college project to process images and webcam stream. Original assigment required students to work with static images. But I wanted to do bit of extra and this project handles video stream from webcam and there is simple condition to detect circle/ball shapes.</p>
+
+<p>Author: Anton Krug. License: GPL</p>
+
+<p>Webcam part of this project uses <a href="https://github.com/sarxos/webcam-capture">https://github.com/sarxos/webcam-capture</a> code to access the camera.</p>
+
+<p><img src="https://raw.githubusercontent.com/truhlikfredy/assignments-y2-union-shapes-detection/master/screenShoots/01.png" alt="Shapes Detection"></p>
+
+<p><img src="https://raw.githubusercontent.com/truhlikfredy/assignments-y2-union-shapes-detection/master/screenShoots/02.png" alt="Shapes Detection"></p>
+
+<h1>
+<a id="downloads" class="anchor" href="#downloads" aria-hidden="true"><span class="octicon octicon-link"></span></a>Downloads</h1>
+
+<p><a href="https://github.com/truhlikfredy/assignments-y2-union-shapes-detection/archive/v1.0.zip">union.zip</a></p>
+
+<p><a href="https://github.com/truhlikfredy/assignments-y2-union-shapes-detection/archive/v1.0.tar.gz">union.tgz</a></p>
+
+<h1>
+<a id="features" class="anchor" href="#features" aria-hidden="true"><span class="octicon octicon-link"></span></a>Features</h1>
+
+<ul>
+<li>WebCam and MachineVission classes containing main. Both behave differently.
+
+<ul>
+<li>WebCam can detect shapes like circle/balls. (when ball detection is enabled, the image is inverted)</li>
+<li>MachineVission contains dialog based GUI and allows change thersholds, but work only with static images.</li>
+</ul>
+</li>
+<li>Ready to import Eclipse project (tested on Eclipse Kepler and Mars).</li>
+<li>Improved princeton Picture class.
+
+<ul>
+<li>Removed, added and modified methods.</li>
+<li>Get/Set pixel is faster</li>
+<li>Constructor accepts BufferedImage as well</li>
+<li>More safer handling for less common inputs with GIF and BMP (8-bit indexed files, black &amp; white).</li>
+<li>Post-proccessing like blur,invert added.</li>
+<li>Luminance calculations done faster than original princeton.</li>
+</ul>
+</li>
+<li>Console outputs verbose information (verbosity can be adjusted in source code)</li>
+<li>Colorizes union groups by size or random color.</li>
+<li>Few simple JUint tests.</li>
+<li>Tested on Windows/Linux.</li>
+</ul>
+
+<h1>
+<a id="screenshots" class="anchor" href="#screenshots" aria-hidden="true"><span class="octicon octicon-link"></span></a>ScreenShots</h1>
+
+<h2>
+<a id="smartphone-screen-turned-to-webcam" class="anchor" href="#smartphone-screen-turned-to-webcam" aria-hidden="true"><span class="octicon octicon-link"></span></a>Smartphone screen turned to webcam</h2>
+
+<p><img src="https://raw.githubusercontent.com/truhlikfredy/assignments-y2-union-shapes-detection/master/screenShoots/03.png" alt="Phone"></p>
+
+<h2>
+<a id="hand" class="anchor" href="#hand" aria-hidden="true"><span class="octicon octicon-link"></span></a>Hand</h2>
+
+<p><img src="https://raw.githubusercontent.com/truhlikfredy/assignments-y2-union-shapes-detection/master/screenShoots/04.png" alt="Hand"></p>
+
+<h2>
+<a id="sample-images" class="anchor" href="#sample-images" aria-hidden="true"><span class="octicon octicon-link"></span></a>Sample Images</h2>
+
+<p><img src="https://raw.githubusercontent.com/truhlikfredy/assignments-y2-union-shapes-detection/master/screenShoots/05.png" alt="povray"></p>
+
+<p><img src="https://raw.githubusercontent.com/truhlikfredy/assignments-y2-union-shapes-detection/master/screenShoots/06.png" alt="sample"></p>
+
+<h1>
+<a id="notes" class="anchor" href="#notes" aria-hidden="true"><span class="octicon octicon-link"></span></a>Notes</h1>
+
+<p>Lot of behaviour is based on how their static defined variables are setup.
+ Of cource it can be setup to misbehave or be slower (when verbose + profiling is
+e nabled etc...).</p>
+
+<p>MachineVision has option to fast start when its preloades some fixed image, 
+when fast start is disabled it will show dialogs prompting for these options.</p>
+
+<p>The included 3rd party webcam library may output lot of warnings, but still can work nicely.</p>
+
+<p>In file screenShots/00.png contains basic shapes which can be printed and used on the camera.
+<img src="https://raw.githubusercontent.com/truhlikfredy/assignments-y2-union-shapes-detection/master/screenShoots/00.png" alt="for printing"></p>
+      </section>
+
+      <footer>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <p>this project by <a href="https://github.com/truhlikfredy">truhlikfredy</a> can be found on <a href="https://github.com/truhlikfredy/assignments-y2-union-shapes-detection">GitHub</a></p>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p>Generated with <a href="https://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
+      </footer>
+
+    </div>
+
+    
+  </body>
+</html>
