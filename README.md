@@ -37,11 +37,7 @@ Webcam part of this project uses https://github.com/sarxos/webcam-capture code t
 ![Phone](https://raw.githubusercontent.com/truhlikfredy/assignments-y2-union-shapes-detection/master/screenShoots/03.png)
 
 ##Hand
-<<<<<<< HEAD
 ![Hand](https://raw.githubusercontent.com/truhlikfredy/assignments-y2-union-shapes-detection/master/screenShoots/04.png)
-=======
-![Hand]https://raw.githubusercontent.com/truhlikfredy/assignments-y2-union-shapes-detection/master/screenShoots/04.png)
->>>>>>> ceed7987c6bfac15c665470515cbf6c8c3fe3674
 
 ##Sample Images
 
