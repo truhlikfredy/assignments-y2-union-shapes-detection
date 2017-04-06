@@ -5,9 +5,9 @@ Author: Anton Krug. License: GPL
 
 Webcam part of this project uses https://github.com/sarxos/webcam-capture code to access the camera.
 
-![Shapes Detection](https://raw.githubusercontent.com/truhlikfredy/assignments-y2-union-shapes-detection/master/screenShoots/01.png)
+![Shapes Detection](/screenShoots/01.png)
 
-![Shapes Detection](https://raw.githubusercontent.com/truhlikfredy/assignments-y2-union-shapes-detection/master/screenShoots/02.png)
+![Shapes Detection](/screenShoots/02.png)
 
 # Downloads
 [union.zip](https://github.com/truhlikfredy/assignments-y2-union-shapes-detection/archive/v1.0.zip)
@@ -34,16 +34,16 @@ Webcam part of this project uses https://github.com/sarxos/webcam-capture code t
 # ScreenShots
 
 ## Smartphone screen turned to webcam
-![Phone](https://raw.githubusercontent.com/truhlikfredy/assignments-y2-union-shapes-detection/master/screenShoots/03.png)
+![Phone](/screenShoots/03.png)
 
 ## Hand
-![Hand](https://raw.githubusercontent.com/truhlikfredy/assignments-y2-union-shapes-detection/master/screenShoots/04.png)
+![Hand](/screenShoots/04.png)
 
 ## Sample Images
 
-![povray](https://raw.githubusercontent.com/truhlikfredy/assignments-y2-union-shapes-detection/master/screenShoots/05.png)
+![povray](/screenShoots/05.png)
 
-![sample](https://raw.githubusercontent.com/truhlikfredy/assignments-y2-union-shapes-detection/master/screenShoots/06.png)
+![sample](/screenShoots/06.png)
 
 # Notes
 
@@ -58,4 +58,4 @@ when fast start is disabled it will show dialogs prompting for these options.
 The included 3rd party webcam library may output lot of warnings, but still can work nicely.
 
 In file screenShots/00.png contains basic shapes which can be printed and used on the camera.
-![for printing](https://raw.githubusercontent.com/truhlikfredy/assignments-y2-union-shapes-detection/master/screenShoots/00.png)
+![for printing](/screenShoots/00.png)
