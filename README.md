@@ -33,13 +33,13 @@ Webcam part of this project uses https://github.com/sarxos/webcam-capture code t
 
 # ScreenShots
 
-##Smartphone screen turned to webcam
+## Smartphone screen turned to webcam
 ![Phone](https://raw.githubusercontent.com/truhlikfredy/assignments-y2-union-shapes-detection/master/screenShoots/03.png)
 
-##Hand
+## Hand
 ![Hand](https://raw.githubusercontent.com/truhlikfredy/assignments-y2-union-shapes-detection/master/screenShoots/04.png)
 
-##Sample Images
+## Sample Images
 
 ![povray](https://raw.githubusercontent.com/truhlikfredy/assignments-y2-union-shapes-detection/master/screenShoots/05.png)
 
